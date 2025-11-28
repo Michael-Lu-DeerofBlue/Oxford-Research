@@ -1,0 +1,6 @@
+matplotlib
+openai
+numpy
+pybamm==24.5
+scipy
+shutup

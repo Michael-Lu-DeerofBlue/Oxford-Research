@@ -1,0 +1,60 @@
+# Environment and secrets
+.env
+*.env
+.env.*
+
+# Python
+**/__pycache__/
+**/*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Pytest and testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Aider
+.aider*
+aider_work_dir/
+logs/aider_chat_history/
+
+# Run outputs (experiments and logs)
+run_output/
+
+# Temporary and generated files
+*.log
+*.tmp
+*.bak
+.cache/
+spent_tokens.json
+requirements_merged.txt
+
+# Legacy/deprecated files
+docker_run_it.sh
+run_eval.sh
+samples.jsonl
+samples.jsonl_results.jsonl
+.gitattributes

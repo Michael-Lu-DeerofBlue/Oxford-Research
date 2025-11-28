@@ -1,0 +1,8 @@
+// Link to where documentation for the relavent codebase can be scraped from
+{
+    "docs_link": ["docs_link = https://docs.pybamm.org/en/stable/index.html"],
+// a list of websites that the agent should not be able to access
+    "black_list": [
+        "https://github.com/pybamm-team/pybamm-eis",
+    ]
+}

@@ -1,0 +1,17 @@
+matplotlib
+humanize
+shutup
+dataclasses_json
+rich
+backoff
+funcy
+openai
+jsonschema
+pytest
+tqdm
+fire
+numpy
+requests
+aider-chat
+docker
+pybamm
