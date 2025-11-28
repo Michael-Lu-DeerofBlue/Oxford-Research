@@ -314,30 +314,3 @@ Edit agent implementations in `openphil_agent/coding_agent.py`
 2. Use `o3-mini` for Aider instead of `o1` (better cost/performance)
 3. Set lower `AIDER_MAP_TOKENS` for smaller codebases
 4. Use `gpt-4o-mini` for DecisionAgent (makes many calls)
-
-**Guidelines:**
-- Follow existing code style
-- Test changes with multiple tasks
-- Update documentation for new features
-- Keep the architecture simple and maintainable
-
-## License
-
-See LICENSE file for details.
-
-## Acknowledgments
-
-- Built on [Aider](https://aider.chat/) for AI-powered code editing
-- Uses [OpenRouter](https://openrouter.ai/) for flexible LLM access
-- Inspired by ReAct and AI Scientist research
-
-## Support
-
-For issues or questions:
-- Check MODEL_CONFIGURATION.md for detailed configuration help
-- Review troubleshooting section above
-- Open an issue on GitHub
-
----
-
-**Note:** This is the refactored simplified architecture. The old Docker-in-Docker implementation has been removed for simplicity and maintainability.
